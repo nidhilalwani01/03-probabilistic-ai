@@ -3,10 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pasta la Vista</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+    <header class="site-header">
+        <div class="container header-content">
+            <h1 class="brand">Pasta la Vista</h1>
+            <nav class="site-nav" aria-label="Primary navigation">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">Italian Pop-Up Experience</p>
+                    <h2>Fresh pasta tonight, gone by sunrise.</h2>
+                    <p class="tagline">
+                        Pasta la Vista is an Italian pop-up that disappears as quickly as its dishes—
+                        handcrafted flavors, fleeting moments, unforgettable nights.
+                    </p>
+                </div>
+                <div class="hero-image-wrap">
+                    <img src="img/featured.png" alt="Featured pasta dish from Pasta la Vista" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu-section">
+            <div class="container">
+                <h2>Featured Dishes</h2>
+                <div class="menu-grid">
+                    <article class="menu-card">
+                        <h3>Truffle Tagliatelle</h3>
+                        <p>Silky ribbons of pasta tossed in black truffle cream and Parmigiano-Reggiano.</p>
+                    </article>
+                    <article class="menu-card">
+                        <h3>Sunset Burrata Ravioli</h3>
+                        <p>House-made ravioli filled with burrata, served with roasted tomato basil sauce.</p>
+                    </article>
+                    <article class="menu-card">
+                        <h3>Midnight Cacio e Pepe</h3>
+                        <p>Classic Roman comfort with pecorino, cracked pepper, and a delicate lemon finish.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container contact-content">
+                <h2>Reserve Your Table Before We Vanish</h2>
+                <a class="reserve-btn" href="mailto:reservations@pastalavista.com">Book a Reservation</a>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
